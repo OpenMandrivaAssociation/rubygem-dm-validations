@@ -5,7 +5,7 @@ Summary:	Library for performing validations on DM models and pure Ruby object
 Name:		rubygem-%{rbname}
 
 Version:	1.2.0
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/datamapper/dm-validations
