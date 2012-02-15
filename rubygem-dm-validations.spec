@@ -1,4 +1,4 @@
-# Generated from dm-validations-1.2.0.gem by gem2rpm5 -*- rpm-spec -*-          
+# Generated from dm-validations-1.2.0.gem by gem2rpm5 -*- rpm-spec -*-
 %define	rbname	dm-validations
 
 Summary:	Library for performing validations on DM models and pure Ruby object
@@ -37,16 +37,15 @@ Documents, RDoc & RI documentation for %{name}.
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/formats
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/formats/*.rb
+%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/validators
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/validators/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/formats/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-validations
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/dm-validations/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
